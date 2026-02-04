@@ -9,6 +9,7 @@
 The **CSV Smart Summary Tool** is a data analysis utility built in **Jupyter Lab** that automatically explores, summarizes, and explains any uploaded CSV dataset.
 It is designed to eliminate repetitive exploratory data analysis (EDA) steps by generating **statistical summaries, visualizations, correlations, and natural-language insights** with minimal user effort.
 
+
 The tool is especially useful for:
 
 * Students
