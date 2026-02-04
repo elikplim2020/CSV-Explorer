@@ -138,6 +138,21 @@ This tool:
 
 ---
 
+## Performance Optimizations
+
+The tool has been optimized for efficiency and performance:
+
+* **Vectorized Operations** – Uses pandas vectorized methods instead of loops for faster computation
+* **Batch Statistical Calculations** – Computes all statistics (mean, median, std, etc.) in single operations
+* **Optimized Correlation Analysis** – Leverages numpy operations and upper triangle matrix indexing to avoid redundant calculations
+* **Memory Management** – Explicit cleanup of matplotlib figures to prevent memory leaks
+* **Pre-computed Quantiles** – Calculates Q1, Q3, and IQR once for all columns for efficient outlier detection
+* **Reduced Data Access** – Minimizes repeated dataframe indexing by caching column subsets
+
+These optimizations significantly improve performance on large datasets while maintaining the same functionality.
+
+---
+
 ## Output
 
 The tool produces:
